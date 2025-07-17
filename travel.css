@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#header{
+    display: flex;
+   
+}
+
+#header>div{
+    width: 33%;
+    text-align: center;
+    padding: 20px; 
+    margin: 0px;
+}
+
+.btt{
+    background-color: tomato;
+    color: white;
+    padding:10px ;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.fa{
+    padding: 10px;
+    text-decoration: none;
+}
+
+span{
+    color: tomato;
+}
+
+#menu>ul>li {
+    color: white;
+    display: inline;
+    padding: 20px;
+    
+    
+}
+
+#menu{
+    
+    background-color: tomato;
+    height: 35px;
+    padding: 3px;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+#menu>ul>li>a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+#banner{
+    
+    background-image: url('plane.jpg');
+    height: 350px;
+    
+}
+
+#banner>h1 {
+    color: tomato;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+#banner>p{
+
+    text-align: center;
+    width: 600px;
+    margin-top: 1px;
+    margin-left: 500px;
+
+}
+
+#section1{
+    margin: 30px 20px 30px 200px;
+}
+#section1>div{
+    width: 200px;
+    height: 80px;
+    
+}
+#section1>div>p{
+    margin-top: 12px;
+    
+}
+
+#section1>div>hill{
+    position: absolute;
+    margin-top: 20px;
+}
